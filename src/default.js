@@ -1,4 +1,5 @@
 export {defaultPage};
+import logoImage from './images/earth.png';
 
 const defaultPage = (() => {
 
@@ -13,7 +14,7 @@ const defaultPage = (() => {
     const contact = document.createElement('button');
     const main = document.createElement('div');
     const logo = document.createElement('div');
-    const logoImage = document.createElement('img');
+    const logoImage = new Image();
     const text = document.createElement('div');
     const textOne = document.createElement('p');
     const footer = document.createElement('div');
