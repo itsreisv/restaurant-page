@@ -1,5 +1,6 @@
 export {defaultPage};
 import Icon from './images/earth.png';
+import Background from './images/stars.jpg';
 
 const defaultPage = (() => {
 
@@ -19,7 +20,7 @@ const defaultPage = (() => {
     const textOne = document.createElement('p');
     const footer = document.createElement('div');
     logoImage.src = Icon;
-    background.src = "../src/images/stars.jpg";
+    background.src = Background;
     content.appendChild(background);
     background.classList.add('bg');
     content.appendChild(header);
