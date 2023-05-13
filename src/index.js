@@ -1,8 +1,10 @@
 import "./styles.css"
-import {homePage} from '../src/home.js';
-import {menuPage} from '../src/menu.js';
-import {contactPage} from '../src/contact.js';
-import {defaultPage} from '../src/default.js';
+import {homePage} from './home.js';
+import {menuPage} from './menu.js';
+import {contactPage} from './contact.js';
+import {defaultPage} from './default.js';
+import Icon from './images/earth.png'
+
 
 defaultPage.openDefault();
 

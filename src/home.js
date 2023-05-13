@@ -9,7 +9,7 @@ const homePage = (() => {
     const logoImage = document.createElement('img');
     const text = document.createElement('div');
     const textOne = document.createElement('p');
-    logoImage.src = '../dist/images/earth.png';
+    logoImage.src = '../src/images/earth.png';
     main.appendChild(logo);
     logo.classList.add('logo');
     logoImage.classList.add('logo-image');

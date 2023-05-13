@@ -12,7 +12,7 @@ const menuPage = (() => {
                         'Tomato sauce, Mozarella cheese, and Onion rings', 'Tomato sauce, Mozarella cheese, Grilled chicken, Bacon, Ham, and Italian Sausage',
                           'Tomato sauce, Fresh mozarella, Basil, Olive oil & Salt, and Baby Spinache' ]
 
-      let images = ['../dist/images/mercury.png', '../dist/images/venus.png', '../dist/images/earth.png', '../dist/images/mars.png', '../dist/images/jupiter.png', '../dist/images/saturn.png', '../dist/images/uranus.png', '../dist/images/neptune.png']
+      let images = ['../src/images/mercury.png', '../src/images/venus.png', '../src/images/earth.png', '../src/images/mars.png', '../src/images/jupiter.png', '../src/images/saturn.png', '../src/images/uranus.png', '../src/images/neptune.png']
     const main = document.querySelector('.main');
     const box = document.createElement('div');
     main.appendChild(box);
