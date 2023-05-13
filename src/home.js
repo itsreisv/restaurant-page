@@ -1,4 +1,5 @@
 export {homePage};
+import Icon from './images/earth.png';
 
 const homePage = (() => {
 
@@ -9,7 +10,7 @@ const homePage = (() => {
     const logoImage = document.createElement('img');
     const text = document.createElement('div');
     const textOne = document.createElement('p');
-    logoImage.src = '../src/images/earth.png';
+    logoImage.src = Icon;
     main.appendChild(logo);
     logo.classList.add('logo');
     logoImage.classList.add('logo-image');

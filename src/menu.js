@@ -1,5 +1,13 @@
 
 export {menuPage};
+import Icon1 from './images/mercury.png';
+import Icon2 from './images/venus.png';
+import Icon3 from './images/earth.png';
+import Icon4 from './images/mars.png';
+import Icon5 from './images/jupiter.png';
+import Icon6 from './images/saturn.png';
+import Icon7 from './images/uranus.png';
+import Icon8 from './images/neptune.png';
 
 const menuPage = (() => {
 
@@ -12,7 +20,7 @@ const menuPage = (() => {
                         'Tomato sauce, Mozarella cheese, and Onion rings', 'Tomato sauce, Mozarella cheese, Grilled chicken, Bacon, Ham, and Italian Sausage',
                           'Tomato sauce, Fresh mozarella, Basil, Olive oil & Salt, and Baby Spinache' ]
 
-      let images = ['../src/images/mercury.png', '../src/images/venus.png', '../src/images/earth.png', '../src/images/mars.png', '../src/images/jupiter.png', '../src/images/saturn.png', '../src/images/uranus.png', '../src/images/neptune.png']
+      let images = [Icon1, Icon2, Icon3, Icon4, Icon5, Icon6, Icon7, Icon8]
     const main = document.querySelector('.main');
     const box = document.createElement('div');
     main.appendChild(box);
