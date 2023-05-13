@@ -18,10 +18,7 @@ const defaultPage = (() => {
     const text = document.createElement('div');
     const textOne = document.createElement('p');
     const footer = document.createElement('div');
-    const myIcon = new Image();
-    myIcon.src = Icon;
-    logo.appendChild(Icon);
-    logoImage.src = '../src/images/earth.png';
+    logoImage.src = Icon;
     background.src = "../src/images/stars.jpg";
     content.appendChild(background);
     background.classList.add('bg');
