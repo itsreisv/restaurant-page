@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homePage\": () => (/* binding */ homePage)\n/* harmony export */ });\n\n\nconst homePage = (() => {\n\n  const openHome = () => {\n\n    const main = document.querySelector('.main');\n    const logo = document.createElement('div');\n    const logoImage = document.createElement('img');\n    const text = document.createElement('div');\n    const textOne = document.createElement('p');\n    logoImage.src = '../src/images/earth.png';\n    main.appendChild(logo);\n    logo.classList.add('logo');\n    logoImage.classList.add('logo-image');\n    logo.appendChild(logoImage);\n    main.appendChild(text);\n    text.appendChild(textOne);\n    textOne.textContent = 'Come join us a pizza planet, we serve the best pizza in the solar system!'\n    text.classList.add('text');\n  }\n  return {openHome}\n})();\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homePage\": () => (/* binding */ homePage)\n/* harmony export */ });\n/* harmony import */ var _images_earth_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/earth.png */ \"./src/images/earth.png\");\n\n\n\nconst homePage = (() => {\n\n  const openHome = () => {\n\n    const main = document.querySelector('.main');\n    const logo = document.createElement('div');\n    const logoImage = document.createElement('img');\n    const text = document.createElement('div');\n    const textOne = document.createElement('p');\n    logoImage.src = _images_earth_png__WEBPACK_IMPORTED_MODULE_0__;\n    main.appendChild(logo);\n    logo.classList.add('logo');\n    logoImage.classList.add('logo-image');\n    logo.appendChild(logoImage);\n    main.appendChild(text);\n    text.appendChild(textOne);\n    textOne.textContent = 'Come join us a pizza planet, we serve the best pizza in the solar system!'\n    text.classList.add('text');\n  }\n  return {openHome}\n})();\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuPage\": () => (/* binding */ menuPage)\n/* harmony export */ });\n\n\n\nconst menuPage = (() => {\n\n  const openMenu = () => {\n\n      let items = ['Mercury Pizza', 'Venus Pizza', 'Earth Pizza', 'Mars Pizza', 'Jupiter Pizza', 'Saturn Pizza', 'Uranus Pizza', 'Neptune Pizza'];\n      let description = ['Tomato sauce mixed with hot sauce, Mozarella, Jalapenos, and Ghost pepper seasoning', 'Tomato sauce, Mozzarella, Gorgonzola, Parmigiano Reggiano, and Goat cheese',\n                          'Tomato sauce, Mozarella cheese, Red onions, Green peppers, Mushrooms, Cherry tomatoes, Artichoke, and Baby spinach','Tomato sauce, Mozarella cheese, and Pepperoni',\n                        'Tomato sauce, Mozarella cheese, Red onions, Green and red peppers, Mushrooms, Cherry tomatoes, Chicken, Pepperoni, Sausage, Bacon, and Ham',\n                        'Tomato sauce, Mozarella cheese, and Onion rings', 'Tomato sauce, Mozarella cheese, Grilled chicken, Bacon, Ham, and Italian Sausage',\n                          'Tomato sauce, Fresh mozarella, Basil, Olive oil & Salt, and Baby Spinache' ]\n\n      let images = ['../src/images/mercury.png', '../src/images/venus.png', '../src/images/earth.png', '../src/images/mars.png', '../src/images/jupiter.png', '../src/images/saturn.png', '../src/images/uranus.png', '../src/images/neptune.png']\n    const main = document.querySelector('.main');\n    const box = document.createElement('div');\n    main.appendChild(box);\n    main.classList.add('main-menu');\n    box.classList.add('box-menu');\n\n\n    for(let i = 0; i < items.length; i++) {\n      const menuItem = document.createElement('div');\n      const itemTitle = document.createElement('h3');\n      const itemDescription = document.createElement('p');\n      const itemImage = document.createElement('img');\n      menuItem.classList.add('menu-item');\n      box.appendChild(menuItem);\n      menuItem.appendChild(itemTitle);\n      itemTitle.classList.add('item-title');\n      itemTitle.textContent = items[i];\n      menuItem.appendChild(itemDescription);\n      itemDescription.classList.add('item-description');\n      itemDescription.textContent = description[i];\n      menuItem.appendChild(itemImage);\n      itemImage.classList.add('item-images');\n      itemImage.src = images[i];\n\n\n    }\n    \n\n  }\n  return {openMenu}\n})();\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuPage\": () => (/* binding */ menuPage)\n/* harmony export */ });\n/* harmony import */ var _images_mercury_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/mercury.png */ \"./src/images/mercury.png\");\n/* harmony import */ var _images_venus_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/venus.png */ \"./src/images/venus.png\");\n/* harmony import */ var _images_earth_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/earth.png */ \"./src/images/earth.png\");\n/* harmony import */ var _images_mars_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/mars.png */ \"./src/images/mars.png\");\n/* harmony import */ var _images_jupiter_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/jupiter.png */ \"./src/images/jupiter.png\");\n/* harmony import */ var _images_saturn_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/saturn.png */ \"./src/images/saturn.png\");\n/* harmony import */ var _images_uranus_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/uranus.png */ \"./src/images/uranus.png\");\n/* harmony import */ var _images_neptune_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/neptune.png */ \"./src/images/neptune.png\");\n\n\n\n\n\n\n\n\n\n\n\nconst menuPage = (() => {\n\n  const openMenu = () => {\n\n      let items = ['Mercury Pizza', 'Venus Pizza', 'Earth Pizza', 'Mars Pizza', 'Jupiter Pizza', 'Saturn Pizza', 'Uranus Pizza', 'Neptune Pizza'];\n      let description = ['Tomato sauce mixed with hot sauce, Mozarella, Jalapenos, and Ghost pepper seasoning', 'Tomato sauce, Mozzarella, Gorgonzola, Parmigiano Reggiano, and Goat cheese',\n                          'Tomato sauce, Mozarella cheese, Red onions, Green peppers, Mushrooms, Cherry tomatoes, Artichoke, and Baby spinach','Tomato sauce, Mozarella cheese, and Pepperoni',\n                        'Tomato sauce, Mozarella cheese, Red onions, Green and red peppers, Mushrooms, Cherry tomatoes, Chicken, Pepperoni, Sausage, Bacon, and Ham',\n                        'Tomato sauce, Mozarella cheese, and Onion rings', 'Tomato sauce, Mozarella cheese, Grilled chicken, Bacon, Ham, and Italian Sausage',\n                          'Tomato sauce, Fresh mozarella, Basil, Olive oil & Salt, and Baby Spinache' ]\n\n      let images = [_images_mercury_png__WEBPACK_IMPORTED_MODULE_0__, _images_venus_png__WEBPACK_IMPORTED_MODULE_1__, _images_earth_png__WEBPACK_IMPORTED_MODULE_2__, _images_mars_png__WEBPACK_IMPORTED_MODULE_3__, _images_jupiter_png__WEBPACK_IMPORTED_MODULE_4__, _images_saturn_png__WEBPACK_IMPORTED_MODULE_5__, _images_uranus_png__WEBPACK_IMPORTED_MODULE_6__, _images_neptune_png__WEBPACK_IMPORTED_MODULE_7__]\n    const main = document.querySelector('.main');\n    const box = document.createElement('div');\n    main.appendChild(box);\n    main.classList.add('main-menu');\n    box.classList.add('box-menu');\n\n\n    for(let i = 0; i < items.length; i++) {\n      const menuItem = document.createElement('div');\n      const itemTitle = document.createElement('h3');\n      const itemDescription = document.createElement('p');\n      const itemImage = document.createElement('img');\n      menuItem.classList.add('menu-item');\n      box.appendChild(menuItem);\n      menuItem.appendChild(itemTitle);\n      itemTitle.classList.add('item-title');\n      itemTitle.textContent = items[i];\n      menuItem.appendChild(itemDescription);\n      itemDescription.classList.add('item-description');\n      itemDescription.textContent = description[i];\n      menuItem.appendChild(itemImage);\n      itemImage.classList.add('item-images');\n      itemImage.src = images[i];\n\n\n    }\n    \n\n  }\n  return {openMenu}\n})();\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
@@ -170,6 +170,56 @@ eval("module.exports = __webpack_require__.p + \"70e9119bf1ce04b302d8.png\";\n\n
 
 /***/ }),
 
+/***/ "./src/images/jupiter.png":
+/*!********************************!*\
+  !*** ./src/images/jupiter.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f969096babb6ed1f3671.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/jupiter.png?");
+
+/***/ }),
+
+/***/ "./src/images/mars.png":
+/*!*****************************!*\
+  !*** ./src/images/mars.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ebc3799de308861026b5.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/mars.png?");
+
+/***/ }),
+
+/***/ "./src/images/mercury.png":
+/*!********************************!*\
+  !*** ./src/images/mercury.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"583413be9335d4703e7f.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/mercury.png?");
+
+/***/ }),
+
+/***/ "./src/images/neptune.png":
+/*!********************************!*\
+  !*** ./src/images/neptune.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f345c9be2d306997a2ab.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/neptune.png?");
+
+/***/ }),
+
+/***/ "./src/images/saturn.png":
+/*!*******************************!*\
+  !*** ./src/images/saturn.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"016ae79acc47b865f7a9.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/saturn.png?");
+
+/***/ }),
+
 /***/ "./src/images/stars.jpg":
 /*!******************************!*\
   !*** ./src/images/stars.jpg ***!
@@ -177,6 +227,26 @@ eval("module.exports = __webpack_require__.p + \"70e9119bf1ce04b302d8.png\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"9a7766d14e4578cbf3a1.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/stars.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/uranus.png":
+/*!*******************************!*\
+  !*** ./src/images/uranus.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"12409bfc0e9eb866ae39.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/uranus.png?");
+
+/***/ }),
+
+/***/ "./src/images/venus.png":
+/*!******************************!*\
+  !*** ./src/images/venus.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"840c0b7cd6af68e1eead.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/venus.png?");
 
 /***/ })
 
